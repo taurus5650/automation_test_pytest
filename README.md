@@ -94,9 +94,6 @@ The password form **container's logs** when u started the container.
 ------- ------- ------- _Demarcations_ ------ ------ ------
 
 
-## **Jenkins**
-
-### Build pipeline
 * In this case, the job will separate by services. 
 Thus, We may create the pipeline by services.
   * API : Users
@@ -111,6 +108,14 @@ Thus, We may create the pipeline by services.
 │           ├── test_get_users.py
 │           └── test_post_user.py
 ```
+## **Directory**
+### Change Jenkinsfile configurations
+* _GIT_REPO : Ur repo
+* _GIT_CREDENTIALS_ID : From Jenkins credentials setting Ref [How To Add Git Credentials In Jenkins](https://www.cybrosys.com/blog/how-to-add-git-credentials-in-jenkins)
+![Jenkinsfile_config.png](git_readme%2FJenkinsfile_config.png)
+
+## **Jenkins**
+### Build pipeline
 * Select new items build a new job
 ![jenkins_new_item.png](git_readme%2Fjenkins_new_item.png)
 * Give a job naming and select pipeline
