@@ -1,5 +1,7 @@
 __pycache__
 venv
 .idea
+.DS_Store
+./deployment/.DS_Store
 ./deployment/IGNORE_BACKUP_JENKINSFILE
 ./deployment/IGNORE_JENKINS_BACKUP_BASIC
