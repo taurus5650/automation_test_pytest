@@ -1,4 +1,5 @@
 __pycache__
 venv
+.idea
 ./deployment/IGNORE_BACKUP_JENKINSFILE
 ./deployment/IGNORE_BACKUP_JENKINS_BASIC
