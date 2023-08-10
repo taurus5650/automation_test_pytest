@@ -6,7 +6,7 @@
   * Allure report
   * Docker
 * Support testing
-  * http api testing
+  * http api testing (Testing resource : https://fakerestapi.azurewebsites.net)
   * `ToDo` web selenium testing
 
 ### **Directory Structure**
